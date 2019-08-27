@@ -38,7 +38,7 @@ void Key_Scan()
         POINT_COLOR=Yellow;
         LCD_ShowString(0,160,"Road_Count :");
         LCD_ShowNum(80,160,Road_Count,3);
-        POINT_COLOR=WHITE;
+        POINT_COLOR=Yellow;
         POINT_COLOR=RED;
         LCD_ShowString(120,160,"Threshold :");
         LCD_ShowNum(200,160,Threshold,3);
