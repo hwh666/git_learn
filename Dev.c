@@ -35,7 +35,7 @@ void Key_Scan()
     {
         Show_Image_original(0,0,60,188);
         Show_Image_deal(70,0,60,188); 
-        POINT_COLOR=RED;
+        POINT_COLOR=Yellow;
         LCD_ShowString(0,160,"Road_Count :");
         LCD_ShowNum(80,160,Road_Count,3);
         POINT_COLOR=WHITE;
